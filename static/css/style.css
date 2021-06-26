@@ -1,0 +1,25 @@
+@import
+html {
+
+}
+.navbar-logo ul >li{
+    display: inline-block;
+}
+.carousel-inner {
+    height: 90vh;
+}
+.carousel-caption {
+    margin-bottom: 35rem;
+}
+.bliss {
+    color: yellowgreen;
+    font-weight: bolder;
+}
+.pizza {
+    color: orange;
+}
+.caption {
+    color: yellow;
+    font-size: xx-large;
+    letter-spacing: 2px;
+}
