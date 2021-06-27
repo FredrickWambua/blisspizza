@@ -19,3 +19,23 @@
     font-size: xx-large;
     letter-spacing: 2px;
 }
+.menu-section {
+    background-color: black;
+}
+.menu-container {
+    text-align: center;
+}
+#menu-items {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;;
+}
+.pizza-img {
+    height: 200px;
+    width: 300px;
+    margin: 50px;
+}
+.menu-img {
+    
+}
