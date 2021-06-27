@@ -60,8 +60,74 @@
             <img src="static/images/smallpie.jpg" alt="large pizza" class="pizza-img">
           </div>
         </div>
-        <div class="menu-img">
-          <img src="static/images/menu.png" alt="menu image" height="400px" width="400px">
+        <div class="row">
+          <div class="col-md-6 menu-img">
+            <img src="static/images/menu.png" alt="menu image" height="500px" width="400px">
+          </div>
+          <div class="col-md-6">
+            <p id=pizza-description>
+              Bliss pizza offers fast, delicious and blissful pizza. The pizza, made with unique,
+               varied recipes and a secret sauce, include a vast array of topping selections, 
+               as well as healthy alternatives. The company also will offer town vending carts to allow students and workers 
+               in Nairobi town a quick and easy dining option without leaving their chill spots.
+            </p>
+            <div class="order">
+              <button type="button" class="btn btn-warning">Order Now !</button>
+            </div>
+            <div class="form-info">
+              <form>               
+                <div class="form-group">
+                  <label for="exampleFormControlSelect1">Select Pizza Size</label>
+                  <select class="form-control" id="exampleFormControlSelect1">
+                    <option>Small</option>
+                    <option>Medium</option>
+                    <option>Large</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label for="exampleFormControlSelect2">Select Pizza Type</label>
+                  <select multiple class="form-control" id="exampleFormControlSelect2">
+                    <option>Peperoni</option>
+                    <option>Cappricciosa</option>
+                    <option>Marina</option>
+                    <option>Funghi</option>
+                    <option>Napoliana</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label for="exampleFormControlSelect2">Select Crust Type</label>
+                  <select multiple class="form-control" id="exampleFormControlSelect3">
+                    <option>Thin crust - ksh. 80</option>
+                    <option>Thick crust - Ksh. 120</option>
+                    <option>Custom crust - Ksh. 200</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label for="exampleFormControlSelect2">Select Your Topping</label>
+                  <select multiple class="form-control" id="exampleFormControlSelect3">
+                    <option>Pineapple - ksh. 150</option>
+                    <option>Onion - Ksh. 60</option>
+                    <option>Tomatoe - Ksh. 80</option>
+                    <option>Periperi - Ksh. 160</option>
+                  </select>
+                </div>
+                 <label for="number">Number of Pizza's</label>
+                <input type="number" class="form-control" id="number" placeholder="Number of pizzas" min="1" required>
+                <div class="order">
+                  <button type="button" class="btn btn-warning">Send Order</button>
+                </div>
+              </form>
+              <div class="delivery">
+                <div class="delivery-info">
+                  <p>We offer affordable delivery services within Nairobi area. You can choose to pick from our various restaurants.</p>
+                </div>
+                <div class="delivery-buttons">
+                  <button type="button" class="btn btn-warning">Request Delivery!</button>
+                  <button type="button" class="btn btn-warning">Pick up</button>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
