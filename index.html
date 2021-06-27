@@ -11,24 +11,9 @@
     <title>Bliss Pizza</title>
 </head>
 <body>
-    <nav class="navbar bg-faded">
-        <div class="container">
-          <ul class="nav navbar-nav navbar-logo mx-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="#">Brand</a>
-            </li>
-            <!-- <li class="nav-item">
-                <a class="nav-link" href="#">Menu</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Order</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
-              </li> -->
-          </ul>
-        </div>
-    </nav>
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
+    <h1 id="bliss">Bliss<span id="pizza">Pizza</span></h1>
+  </nav>
     <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
@@ -65,7 +50,7 @@
               <button type="button" class="btn btn-warning">Order Now !</button>
             </div>
             <div class="form-info">
-              <form>               
+              <form class="order-form">               
                 <div class="form-group">
                   <label for="exampleFormControlSelect1">Select Pizza Size</label>
                   <select class="form-control" id="exampleFormControlSelect1">
@@ -104,7 +89,7 @@
                  <label for="number">Number of Pizza's</label>
                 <input type="number" class="form-control" id="number" placeholder="Number of pizzas" min="1" required>
                 <div class="order">
-                  <button type="button" class="btn btn-warning">Send Order</button>
+                  <button id="send-order" type="button" class="btn btn-warning">Send Order</button>
                 </div>
               </form>
               <div class="delivery">
@@ -125,7 +110,7 @@
       <h1>Contact</h1>
       <div class="container">
         <div class="row">
-          <div class="col-md-2">
+          <div class="col-md-2 passion">
             <p>Our Passion</p>
             <ul>
               <li>Peperoni</li>
@@ -136,31 +121,35 @@
             </ul>
           </div>
           <div class="col-md-8" id="contact">
-            <p>Subcribe to rceive updates on our Pizza Offers</p>
+            <p>Subcribe to receive updates on our Pizza Offers</p>
             <div class="form">
               <form>
-                    <input type="text" class="form-control" placeholder="Enter Email..." required>
-                    <button type="submit" class="btn btn-warning">Subscribe</button>         
+                <input type="text" class="form-control" placeholder="Enter Email..." required>
+                <button type="submit" class="btn btn-warning mt-4">Subscribe</button>         
             </form>
           </div>
           </div>
-          <div class="col-md-2">
-            <p>Our centers</p>
+          <div class="col-md-2 contact-info">
+            <p>Our Contacts</p>
             <ul>
-              <li>Loita St. Loita Hse</li>
-              <li>Kimathi Hse, Kmth Strt</li>
+              <li>Call: 0712345678</li>
+              <li>info@blisspizza.com</li>
               <li>KIlimani Hse</li>
               <li>UpperHill Hse</li>
             </ul>
           </div>
         </div>
       </div>
+     
+    </footer>
+    <div class="footer-final">
       <div class="socials">
         <a href="#facebook"><i class="fab fa-facebook-f"></i></a>
         <a href="#twitter"><i class="fab fa-twitter"></i></a>
         <a href="#instagram"><i class="fab fa-instagram"></i></a>
       </div>
-    </footer>
+      <p id="copyright"><i class="fas fa-copyright"></i>2021 Fredrick Wambua</p>
+    </div>
     <script src="static/js/jquery-3.6.0.js"></script>
     <script src="static/js/bootstrap.js"></script>
     <script src="static/js/scripts.js"></script>
