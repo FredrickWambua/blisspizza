@@ -1,11 +1,29 @@
+@import url("https://fonts.google.com/specimen/Rock+Salt#standard-styles");
 h1 {
     text-align: center;
+    color: white;
+    font-family: Rock-Salt;
 }
 li {
     list-style-type: none;
+    text-align: start;
 }
-.navbar-logo ul >li{
-    display: inline-block;
+p {
+    color: white;
+    font-family: Rock-Salt;
+}
+#bliss {
+    color: yellowgreen;
+}
+#pizza {
+    color: orange;
+}
+.navbar {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
 }
 .carousel-inner {
     height: 90vh;
@@ -26,26 +44,32 @@ li {
     letter-spacing: 2px;
 }
 .menu-section {
-    background-color: black;
+    background-image: url(../images/backg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.menu-section h1 {
+    padding-top: 30px;
 }
 .menu-container {
     text-align: center;
 }
-#menu-items {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    text-align: center;;
-}
-.pizza-img {
-    height: 200px;
-    width: 300px;
-    margin: 50px;
-}
 .menu-img {
-    
+    padding-bottom: 30px;
 }
-form.info {
+#pizza-description {
+    font-size: x-large;
+    padding-top: 40px;
+}
+.order-form {
+    display: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#send-order {
+    margin-top: 20px;
+}
+.delivery{
     display: none;
 }
 footer {
@@ -54,7 +78,28 @@ footer {
     background-size: cover;
     color:white;
     text-align: center;
+
+}
+footer h1 {
+    padding-top: 30px;
 }
 .subscribe-info {
     margin: 10px;
+}
+.passion .contcat-info{
+    margin-top: 60px;
+}
+.footer-final {
+    background-color: black;
+    text-align: center;
+}
+
+.socials a{
+    margin: 60px;
+    color: white;
+    padding-top: 60px;
+}
+#copyright {
+    margin-top: 10px;
+    padding-bottom: 10px;
 }
