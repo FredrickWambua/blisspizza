@@ -1,3 +1,9 @@
+h1 {
+    text-align: center;
+}
+li {
+    list-style-type: none;
+}
 .navbar-logo ul >li{
     display: inline-block;
 }
@@ -38,4 +44,17 @@
 }
 .menu-img {
     
+}
+form.info {
+    display: none;
+}
+footer {
+    background-image: url(/static/images/img1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:white;
+    text-align: center;
+}
+.subscribe-info {
+    margin: 10px;
 }
