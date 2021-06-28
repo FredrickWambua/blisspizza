@@ -82,7 +82,7 @@ p {
     margin-top: 10px;
 }
 footer {
-    background-image: url(../images/img2.jpg);
+    background-image: url(/static/images/img1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     color:white;
