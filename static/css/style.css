@@ -81,7 +81,7 @@ p {
     margin: 30px;
     margin-top: 10px;
 }
-footer {
+.footer {
     background-image: url(/static/images/img1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
