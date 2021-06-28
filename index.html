@@ -40,14 +40,16 @@
             <img src="static/images/menu.png" alt="menu image" height="500px" width="400px">
           </div>
           <div class="col-md-6">
-            <p id=pizza-description>
-              Bliss pizza offers fast, delicious and blissful pizza. The pizza, made with unique,
-               varied recipes and a secret sauce, include a vast array of topping selections, 
-               as well as healthy alternatives. The company also will offer town vending carts to allow students and workers 
-               in Nairobi town a quick and easy dining option without leaving their chill spots.
-            </p>
-            <div class="order">
-              <button type="button" class="btn btn-warning">Order Now !</button>
+            <div class="form-placeholder">
+              <p id=pizza-description>
+                Bliss pizza offers fast, delicious and blissful pizza. The pizza, made with unique,
+                 varied recipes and a secret sauce, include a vast array of topping selections, 
+                 as well as healthy alternatives. The company also will offer town vending carts to allow students and workers 
+                 in Nairobi town a quick and easy dining option without leaving their chill spots.
+              </p>
+              <div class="order">
+                <button type="button" class="btn btn-warning">Order Now !</button>
+              </div>
             </div>
             <div class="form-info">
               <form class="order-form">               
@@ -88,18 +90,21 @@
                 </div>
                  <label for="number">Number of Pizza's</label>
                 <input type="number" class="form-control" id="number" placeholder="Number of pizzas" min="1" required>
-                <div class="order">
+                <div class="send-order">
                   <button id="send-order" type="button" class="btn btn-warning">Send Order</button>
                 </div>
               </form>
               <div class="delivery">
                 <div class="delivery-info">
-                  <p>We offer affordable delivery services within Nairobi area. You can choose to pick from our various restaurants.</p>
+                  <p>Thank you for ordering with us. Would you like your order delivered or you pick it up? Choose your preference.</p>
                 </div>
                 <div class="delivery-buttons">
-                  <button type="button" class="btn btn-warning">Request Delivery!</button>
-                  <button type="button" class="btn btn-warning">Pick up</button>
+                  <button type="submit" class="btn btn-warning req-delivery">Request Delivery!</button>
+                  <button type="submit" class="btn btn-warning pick-up">Pick up</button>
                 </div>
+              </div>
+              <div class="thanks-notification">
+
               </div>
             </div>
           </div>
