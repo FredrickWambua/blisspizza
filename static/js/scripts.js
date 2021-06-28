@@ -1,0 +1,12 @@
+$(document).ready(function(){
+    $(".order").click(function(){
+        $(".order-form").show();
+        $("#pizza-description").hide();
+        $(".order").hide();
+    });
+    $(".send-order").click(function(){
+        $(".delivery").show();
+        $(".order-form").hide();
+        $(".send-order").hide();
+    });
+})
