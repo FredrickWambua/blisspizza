@@ -24,7 +24,7 @@ p {
     margin-right: auto;
     text-align: center;
 }
-}
+
 .carousel-inner {
     height: 90vh;
 }
@@ -71,6 +71,15 @@ p {
 }
 .delivery{
     display: none;
+}
+.delivery-info {
+    font-size: xx-large;
+    font-weight: bold;
+    margin: 60px;
+}
+.delivery-buttons button{
+    margin: 30px;
+    margin-top: 10px;
 }
 footer {
     background-image: url(/static/images/img1.jpg);
